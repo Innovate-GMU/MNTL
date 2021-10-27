@@ -1,0 +1,137 @@
+[33mcommit b6dda3cfc33fe33bce6c579956d4a2a338a17d02[m[33m ([m[1;31morigin/testing-Env[m[33m)[m
+Author: sfekrat <90580332+sfekrat@users.noreply.github.com>
+Date:   Wed Oct 20 20:10:19 2021 -0400
+
+    Based on the feedback from Heruku and a stackoverflow post: yarn.lock was deleted. To run the sample test use npm.
+
+[33mcommit 08798932f3b245dca0ede52a6d6a45c609ae0d89[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 4ee8ade 6591345
+Author: Nnamdi Ojibe <nojibe@gmu.edu>
+Date:   Wed Oct 20 19:54:13 2021 -0400
+
+    Merge pull request #6 from Innovate-GMU/feature-Navbar
+    
+    Reformatted the Navbar
+
+[33mcommit 659134535a2fced831adb42c35c7a8631ab3cf5a[m
+Author: Nnamdi Ojibe <chibizoar@gmail.com>
+Date:   Wed Oct 20 19:43:46 2021 -0400
+
+    Reformatted the Navbar
+
+[33mcommit 799286391335f4ceff6422243c58b3aec4f7c97f[m
+Author: sfekrat <90580332+sfekrat@users.noreply.github.com>
+Date:   Tue Oct 19 00:11:10 2021 -0400
+
+    Added multiple config files to setup the testing environment
+    
+    Jest seems to be working on my system. I have added sample.js file and sample.test.js in the pages directory to test its functionality. You can run the test by using the (yarn test) or (npm run test).
+
+[33mcommit 4ee8adee91b992893d01273b10e8a8cd70af6028[m
+Merge: 2b3cdac c9db94f
+Author: Nnamdi Ojibe <nojibe@gmu.edu>
+Date:   Sun Oct 17 12:53:44 2021 -0400
+
+    Merge pull request #4 from Innovate-GMU/testingBranch
+    
+    Heading changed based on ticket 344.
+
+[33mcommit 50397b288740d19ee3369f3877e91de98242bd8e[m[33m ([m[1;31morigin/jesse_concernpages[m[33m)[m
+Author: Jesse Tran <jtran58@gmu.edu>
+Date:   Sun Oct 17 12:42:26 2021 -0400
+
+    New page /concern_pages
+
+[33mcommit c9db94f016fed9b973908d98a321724da33bc372[m
+Author: Nnamdi Ojibe <chibizoar@gmail.com>
+Date:   Sun Oct 17 12:37:58 2021 -0400
+
+    Heading changed based on ticket 344.
+
+[33mcommit 5731d38b80c3b68c0ad668facac9629878440ff7[m
+Author: Jesse Tran <jtran58@gmu.edu>
+Date:   Sun Oct 17 12:10:41 2021 -0400
+
+    Installed react and next. Compiled files
+
+[33mcommit 2b3cdacdb5ca4bcb8d210f2c43fcaacff3b9b7ae[m
+Merge: d7ae55d cdb3415
+Author: Nnamdi Ojibe <nojibe@gmu.edu>
+Date:   Wed Oct 13 21:36:26 2021 -0400
+
+    Merge pull request #3 from Innovate-GMU/HerokuPrep
+    
+    Preparing files for Heroku pipeline and removed empty files.
+
+[33mcommit cdb341573bcfb3f23d004554c86c3df57b7d51bc[m
+Author: Nnamdi Ojibe <chibizoar@gmail.com>
+Date:   Wed Oct 13 20:04:35 2021 -0400
+
+    Preparing files for Heroku pipeline
+
+[33mcommit d7ae55d6ab97a00c1697d7b0e30e92c35b591d15[m
+Merge: 83401ce 0738ccc
+Author: Nnamdi Ojibe <nojibe@gmu.edu>
+Date:   Tue Oct 12 20:59:53 2021 -0400
+
+    Merge pull request #2 from dth7/projectRestructuring
+    
+    Moved template files out of zip folder into main repo
+
+[33mcommit 0738ccc6d482d65626a727fd173b9bd43765e9e3[m
+Author: Nnamdi Ojibe <chibizoar@gmail.com>
+Date:   Tue Oct 12 20:20:32 2021 -0400
+
+    Moved template files out of zip folder into main repo
+
+[33mcommit 83401ced80473bd541b0a5f5d488d53cde3b5780[m
+Merge: 94601cc 42fee1e
+Author: Jesse Tran <90585495+jessevtran@users.noreply.github.com>
+Date:   Sun Oct 10 21:58:08 2021 -0400
+
+    Merge pull request #1 from dth7/Jesse_test_branch
+    
+    test file on jesse_test_branch
+
+[33mcommit 42fee1e6f65d3e9176207fdbc26d4ce4aff96ee5[m
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Sun Oct 10 21:40:38 2021 -0400
+
+    test file on jesse_test_branch
+
+[33mcommit 94601ccc4ab6dd0704bd74a25a46bd4be9ab6868[m
+Merge: dc749e6 1478435
+Author: dth7 <69949059+dth7@users.noreply.github.com>
+Date:   Sun Oct 10 21:06:02 2021 -0400
+
+    Merge branch 'main' of https://github.com/dth7/TEAM04
+
+[33mcommit dc749e672c3123bf288c612b7652f516ac8f3bca[m
+Author: dth7 <69949059+dth7@users.noreply.github.com>
+Date:   Sun Oct 10 20:59:08 2021 -0400
+
+    Committed notus nextJS template
+
+[33mcommit 1478435b7187a218d91a859b13821ecfcc11d2c1[m
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Sat Oct 2 12:00:19 2021 -0400
+
+    Removed test file
+
+[33mcommit 889dccd97e5cf83b9feb6a7c3fe006ca01c3e595[m
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Sun Sep 19 19:47:45 2021 -0400
+
+    sample pull request
+
+[33mcommit c22609e5a1c3c71da434ba33ded6be28ea6986fd[m
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Sun Sep 19 19:43:35 2021 -0400
+
+    pull request test :)
+
+[33mcommit e45f94e237211498b270b354d0ba03702620f918[m
+Author: dth7 <69949059+dth7@users.noreply.github.com>
+Date:   Fri Sep 17 13:32:25 2021 -0400
+
+    Initial commit

@@ -49,9 +49,11 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 Your Wellness Plan
               </li>
+              <Link href="/crisis/crisis/">
               <li className="flex items-center ">
-                CRISIS
+                <a> CRISIS </a>
               </li>
+              </Link>
               
               
             </ul>
