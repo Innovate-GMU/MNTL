@@ -36,12 +36,16 @@ export default function Navbar(props) {
           >
 
             <ul className="flex flex-col space-x-3 lg:flex-row list-none lg:ml-auto">
+              <Link href="/find-support/">
               <li className="flex items-center">
-                Find Support
+                <a> Find Support </a>
               </li>
+              </Link>
+              <Link href="/wellness-quiz/">
               <li className="flex items-center">
-                Take the Quiz
+                <a> Take the Quiz </a>
               </li>
+              </Link>
               <li className="flex items-center">
                 Your Wellness Plan
               </li>
