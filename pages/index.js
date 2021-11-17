@@ -23,7 +23,7 @@ export default function Index() {
           >
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-75 bg-black"
+              className="w-full h-full absolute opacity-50 bg-black"
             ></span>
           </div>
           <div className="container relative mx-auto">
@@ -110,11 +110,10 @@ export default function Index() {
                 </div>
               </div>
             </div>
-
             <div>
-              <a href="/find-support/">
+              <Link href="/find-support/">
                 <div className="w-full md:w-4/12 px-4 mr-auto ml-auto inline-block">
-                  <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg hover:shadow-2xl rounded-lg bg-blueGray-700">
+                  <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                     <img
                       alt="..."
                       src="/img/support_index_page.png"
@@ -141,11 +140,11 @@ export default function Index() {
                     </blockquote>
                   </div>
                 </div>
-              </a>
+              </Link>
 
-              <a href="/wellness-quiz/">
+              <Link href="/wellness-quiz/">
                 <div className="w-full md:w-4/12 px-4 mr-auto ml-auto inline-block">
-                  <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg hover:shadow-2xl rounded-lg bg-blueGray-700">
+                  <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                     <img
                       alt="..."
                       src="/img/quiz_index_page.png"
@@ -172,11 +171,11 @@ export default function Index() {
                     </blockquote>
                   </div>
                 </div>
-              </a>
+              </Link>
 
-              <a href="/crisis">
+              <Link href="/crisis">
                 <div className="w-full md:w-4/12 px-4 mr-auto ml-auto inline-block">
-                  <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg hover:shadow-2xl rounded-lg bg-blueGray-700">
+                  <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                     <img
                       alt="..."
                       src="/img/crisis_index_page.png"
@@ -198,12 +197,12 @@ export default function Index() {
                         In a CRISIS?
                       </h4>
                       <p className="text-md font-light mt-2 text-white">
-                        Your safety is important to us. Find information on this page if you're in a emergency situation.
+                        Your safety is important to us.Find information on this page if you're in a emergency situation.
                       </p>
                     </blockquote>
                   </div>
                 </div>
-              </a>
+              </Link>
 
             </div>
           </div>
@@ -383,6 +382,7 @@ export default function Index() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       QA
                     </p>
+
                   </div>
                 </div>
               </div>
@@ -390,8 +390,7 @@ export default function Index() {
           </div>
         </section>
 
-        {/* IMPLEMENTATION FOR SUGGESTED ARTICLES */}
-        {/* <section className="pb-20 relative block bg-blueGray-800">
+        <section className="pb-20 relative block bg-blueGray-800">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
             style={{ transform: "translateZ(0)" }}
@@ -439,8 +438,9 @@ export default function Index() {
                 </blockquote>
               </div>
             </div>
+
           </div>
-        </section> */}
+        </section>
 
 
       </main>
